@@ -1,0 +1,92 @@
+.foto {
+  float: right;
+  width: 300px;
+  margin-right: 250px;
+  padding: 5px;
+  border: 3px solid #ccc;
+  border-radius: 8px;
+  background-color: black;
+}
+
+.judul {
+  text-align: center;
+  background-color: #333;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  position: relative;
+}
+
+.judul::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
+.judul h1 {
+  font-size: 70px;
+  color: white;
+  display: inline-block;
+  padding-bottom: 10px;
+  margin-bottom: 15px; 
+  margin-top: 10px;
+}
+
+.judul h2 {
+  margin-top: 10px;
+  color: white;
+  font-style: italic;
+  display: inline-block;
+  padding: 8px 15px;
+  padding-bottom: 1
+}
+
+
+p{
+  font-size: 20px;
+  margin-left: 360px;
+}
+
+
+b{
+  font-size: 50px;
+  margin-left: 360px;
+}
+
+
+.dlam{
+  margin-top: 200px;
+}
+
+
+.abaout{
+  margin-top: 30px;
+}
+
+.dlam h3{
+  font-size: 50px;
+  margin-left: 360px;
+}
+
+.dlam B{
+  font-size: 30px;
+}
+.gmail{
+  width: 10px;
+
+}
+
+ .kontak{
+  text-align: center;
+  background-color: #333;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  position: relative;
+}
